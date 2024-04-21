@@ -8,7 +8,10 @@ class Mtn < Formula
   depends_on "gd"
 
   def install
-    system "make", "-Csrc", "install", "PREFIX=#{prefix}"
+    cd "src" do
+      system "make"
+      system "make", "install", "PREFIX=#{prefix}"
+    end
   end
 
 end
