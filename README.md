@@ -10,4 +10,4 @@ More documentation can be found at [Homebrew docs](https://docs.brew.sh)
 ## Formulae
 
 * [Movie Thumbnailer (mtn)](https://gitlab.com/movie_thumbnailer/mtn/wikis/home)
-project. Current version is 3.4.2 ✅, released on February 12, 2022
+project. Current version is 3.5.0 ✅, released on February 26, 2024
