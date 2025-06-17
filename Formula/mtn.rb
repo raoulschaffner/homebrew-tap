@@ -15,9 +15,9 @@ class Mtn < Formula
   end
 
   test do
-    system "curl", "--output", "sample.avi", "-L", "https://bitbucket.org/wahibre/mtn/downloads/sample.avi"
-    system "echo 'f55f1e196a783084bf9b2d2ba600148fe6ae65c8  sample_s.jpg' > checksum"
-    system "#{bin}/mtn", "sample.avi"
+    system "curl", "--output", "sample.webm", "-L", "https://github.com/raoulschaffner/homebrew-tap/raw/refs/heads/master/sample.webm"
+    system "echo '12b0827791ca97aebeae4fa2e9645e7108f70af2  sample_s.jpg' > checksum"
+    system "#{bin}/mtn", "sample.webm"
     system "shasum", "--check", "checksum"
   end
 
